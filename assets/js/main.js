@@ -1,27 +1,27 @@
-window.addEventListener('load', function() {
-  ScrollReveal().reveal('.home', {
-      origin: 'top',
-      distance: '50px',
-      duration: 2000,
-      reset: true,
-      delay: 0
-  });
-});
+// window.addEventListener('load', function() {
+//   ScrollReveal().reveal('.home', {
+//       origin: 'top',
+//       distance: '50px',
+//       duration: 2000,
+//       reset: true,
+//       delay: 0
+//   });
+// });
 
-ScrollReveal().reveal(".section[id]", {
-    origin: 'left',
-      distance: '50px',
-      duration: 2000,
-      reset: true,
-      delay: 800
-})
-ScrollReveal().reveal(".section", {
-  origin: 'bottom',
-    distance: '50px',
-    duration: 2000,
-    reset: true,
-    delay: 800
-})
+// ScrollReveal().reveal(".section[id]", {
+//     origin: 'left',
+//       distance: '50px',
+//       duration: 2000,
+//       reset: true,
+//       delay: 800
+// })
+// ScrollReveal().reveal(".section", {
+//   origin: 'bottom',
+//     distance: '50px',
+//     duration: 2000,
+//     reset: true,
+//     delay: 800
+// })
 // Show Menu
 const showMenu = (toggleID, navId) => {
   const toggle = document.getElementById(toggleID),
